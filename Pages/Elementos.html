@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELEMENTOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!--  ENCABEZADO -->
+  <header>
+      <img src="../images/250px-HTML5_logo_and_wordmark.svg.png" alt="logotipo">
+      <h1 >DESARROLLO WEB</h1>
+      <h2 >Introduccion a HTML 5</h2>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="Elementos.html">ELEMENTOS</a></li>
+          <li><a href="Atributos.html">ATRIBUTOS</a></li>
+        </ul>
+        <form>
+            <input type="search" name="q" placeholder="Buscar">
+            <input type="submit" value="¡Vamos!">
+          </form>
+        </nav>
+    </header>
+
+  <!--  COTENIDO PRINCIPAL -->
+<main>
+   <h1>Elementos</h1>
+    <table class="content-table">
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>Elementos</th>
+            <th>Definicion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Matematicas</td>
+            <td>88,110</td>
+          </tr>
+          <tr class="active-row">
+            <td>2</td>
+            <td>Ingles</td>
+            <td>72,400</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sociales</td>
+            <td>52,300</td>
+          </tr>
+        </tbody>
+      </table>
+
+<form action="">
+
+        <fieldset>
+     
+          <legend>Datos A Registrar </legend>
+          <h4>DATOS PERSONALES</h4>
+          <div class="row2cols">
+            <label for="identificacion"> Documento De Identificacion </label>
+            <input type="text" 
+                    id= "identificacion"
+                    name="" >
+          </div>
+
+          <div class="row2cols">
+            <label for="nombre"> Nombre</label>
+            <input type="text" 
+                    id= "nombre"
+                    name="" >
+          </div>
+
+          <div class="row2cols">
+            <label for="Direccion"> Direccion</label>
+            <input type="text" 
+                    id= "Direccion"
+                    name="" >
+          </div>
+
+          <div class="row2cols">
+            <label for="pais"> País</label>
+            <input type="text" 
+                    id= "pais"
+                    name="" >
+          </div>
+
+          <div class="row2cols">
+            <label for="email"> E-Mail</label>
+            <input type="email" 
+                    id= "email"
+                    name="email" 
+                    required >
+          </div>
+
+          <div class="row2cols">
+            <label for="mensaje"> Opiniones</label>
+                  <textarea name="mensaje" 
+                            id="mensaje" 
+                            rows="5"
+                            required minlength="25">
+                  </textarea> 
+          </div>
+
+        <h4>DATOS LABORALES</h4>
+        <div class="row2cols">
+          <label for="Empresa"> Empresa</label>
+          <input type="text" 
+                  id= "Empresa"
+                  name="" >
+        </div>
+
+        <div class="row2cols">
+          <label for="Sueldo"> Sueldo</label>
+          <input type="text" 
+                  id= "Sueldo"
+                  name="" >
+        </div>
+
+        <div class="row2cols">
+          <label for="bono"> Bonificacion</label>
+          <input type="text" 
+                  id= "bono"
+                  name="" >
+        </div>
+
+        <div class="row2cols">
+          <label for="otrosbonos"> Otras Bonificaciones</label>
+                <textarea name="otrosbonos" 
+                          id="otrosbonos" 
+                          rows="5"
+                          required minlength="25">
+                </textarea> 
+        </div>
+        <div >
+          <div id="envio">
+            <input type="submit" value="Enviar Datos" id="env"> 
+            </div>
+        </div>
+
+      
+  
+        </fieldset>
+       
+
+      </form>
+
+
+</main>
+
+
+
+    <!--  PIE DE PAGINA -->
+    <footer>   
+        <h6>@GusS curso Desarrollo WEB</h6>
+      </footer>
+
+</body>
+</html>

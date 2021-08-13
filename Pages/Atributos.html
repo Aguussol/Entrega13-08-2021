@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATRIBUTOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!--  ENCABEZADO -->
+  <header>
+      <img src="../images/250px-HTML5_logo_and_wordmark.svg.png" alt="logotipo">
+      <h1 >DESARROLLO WEB</h1>
+      <h2 >Introduccion a HTML 5</h2>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="Elementos.html">ELEMENTOS</a></li>
+          <li><a href="Atributos.html">ATRIBUTOS</a></li>
+        </ul>
+        <form>
+            <input type="search" name="q" placeholder="Buscar">
+            <input type="submit" value="¡Vamos!">
+          </form>
+        </nav>
+    </header>
+
+  <!--  COTENIDO PRINCIPAL -->
+<main>
+    
+    <h1>Atributos</h1>
+    <table class="content-table">
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>Atributos</th>
+            <th>Definicion</th> 
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Desarrollo Web</td>
+            <td>88,110</td> 
+          </tr>
+          <tr class="active-row">
+            <td>2</td>
+            <td>Base De Datos</td>
+            <td>72,400</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Programacion</td>
+            <td>52,300</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <form action="">
+
+        <fieldset>
+          <legend>Registro de la opinion </legend>
+
+          <div class="row2cols">
+            <label for="nombre"> Nombre</label>
+            <input type="text" 
+                    id= "nombre"
+                    placeholder="Nombre Completo"
+                    name="" >
+          </div>
+
+          <div class="row2cols">
+            <label for="email"> E-Mail</label>
+            <input type="email" 
+                    id= "email"
+                    name="email" 
+                    placeholder="Direcciones validas"
+                    required
+            >
+          </div>
+
+          <div class="row2cols">
+            <label for="mensaje"> Opiniones</label>
+                  <textarea name="mensaje" 
+                            id="mensaje" 
+                            rows="10"
+                            required minlength="25">
+                  </textarea> 
+        
+          </div>
+          <div class="row2cols">
+            <div>
+              <input type="submit" value="Guardar">
+              <input type="reset" value="Limpiar">
+            </div>
+          </div>
+        </fieldset>
+
+      </form>
+
+
+
+</main>
+    <!--  PIE DE PAGINA -->
+       <footer>
+        <h6>@GusS curso Desarrollo WEB</h6>
+        </footer>
+</body>
+</html>
